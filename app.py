@@ -128,4 +128,4 @@ def launch_apps():
 if __name__ == "__main__":
     import threading
     threading.Thread(target=launch_apps).start()
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=7862)
